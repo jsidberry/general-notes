@@ -1,13 +1,13 @@
 -------------------------------------------
 1. [Create a VPC](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-a-vpc)
-2. [Create 2 Subnets](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-2-subnets)
-3. Create an Internet GateWay - IGW
-4. Attach the IGW to a VPC
-5. Delete a VPC (with no IGW attached)
-6. Create a Route Table for the VPC
-7. Create a Route for Internet/Public Traffic
-8. Add an EC2 Instance (for Public Access from Internet; i.e. WebServer)
-9. Create a Route for Private Traffic
+2. [Create 2 Subnets](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-at-least-2-subnets)
+3. [Create an Internet GateWay - IGW](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-a-internet-gateway---igw)
+4. [Attach the IGW to a VPC](https://github.com/jsidberry/general-notes/blob/master/aws.md#attach-the-internet-gateway-igw-to-a-vpc)
+5. [Delete a VPC](https://github.com/jsidberry/general-notes/blob/master/aws.md#delete-a-vpc-with-no-igw-attached) (with no IGW attached)
+6. [Create a Route Table for the VPC](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-a-route-table)
+7. [Create a Route for Internet/Public Traffic](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-a-route-for-internetpublic-traffic)
+8. [Add an EC2 Instance](https://github.com/jsidberry/general-notes/blob/master/aws.md#add-an-ec2-instance) (for Public Access from Internet; i.e. WebServer)
+9. [Create a Route for Private Traffic](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-a-route-for-private-traffic)
 -------------------------------------------
 
 [AWS CLI for EC2](https://docs.aws.amazon.com/cli/latest/reference/ec2/index.html#cli-aws-ec2)
