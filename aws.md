@@ -1,6 +1,6 @@
 -------------------------------------------
 1. [Create a VPC](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-a-vpc)
-2. Create 2 Subnets
+2. [Create 2 Subnets](https://github.com/jsidberry/general-notes/blob/master/aws.md#create-2-subnets)
 3. Create an Internet GateWay - IGW
 4. Attach the IGW to a VPC
 5. Delete a VPC (with no IGW attached)
